@@ -1,0 +1,25 @@
+
+$type-iron: #A8A8C0;	
+$type-water: #3899F8;	
+$type-bug: #A8B820;
+$type-dragon: #7860E0;
+$type-electric: #F8D030;
+$type-ghost: #6060B0;
+$type-fire: #F05030;
+$type-fairy: #E79FE7;	
+$type-ice: #58C8E0;
+$type-fight: #A05038;
+$type-normal: #A8A090;	
+$type-grass: #78C850;
+$type-psychic: #F870A0;
+$type-rock: #B8A058;
+$type-dark: #7A5848;
+$type-earth: #E9D6A4;	
+$type-poison: #B058A0;	
+$type-flight: #98A8F0;
+
+.iron-color{
+    background: $type-grass;
+    // background: linear-gradient(180deg,$type-electric 0%, $type-iron 100%);
+}
+
