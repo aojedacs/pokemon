@@ -12,7 +12,7 @@ function CardContainer() {
   fetch("https://pokeapi.co/api/v2/pokemon-species/?offset=0&limit=151")
     .then(response => response.json())
     .then(allPokemon => {
-      console.log(allPokemon)
+      // console.log(allPokemon)
       setPokemonList(allPokemon.results)
     })
 
