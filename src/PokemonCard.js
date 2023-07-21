@@ -11,6 +11,10 @@ function PokemonCard({name, number}) {""
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{number}</Card.Text>
+          <Card.Text><b>Tipo X</b></Card.Text>
+          <Card.Text><b>Ataque =</b></Card.Text>
+          <Card.Text><b>Defensa =</b></Card.Text>
+          <Card.Text><b>Resistencia =</b></Card.Text>
           <Button variant="primary">Añadir</Button>
         </Card.Body>
       </Card>
