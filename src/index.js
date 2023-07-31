@@ -5,9 +5,7 @@ import './pokemon.scss'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Finder from './Finder';
-import CardContainer from './CardContainer';
-import PokedexContainer from './PokedexContainer';
+
 
 
 
@@ -16,10 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    {/* <App / */}
-    <PokedexContainer />
-    <Finder />
-    <CardContainer />
+    <App />
   </React.StrictMode>
 );
 

@@ -6,19 +6,23 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import { useState } from "react";
 
-function Finder() {
+function Finder({setFound}) {
 
   const [pokeName, setPokeName] = useState();
   const [pokemonData, setPokemonData] = useState();
 
   const onSearch = () =>{
 
+    let pokeArray = [];
+
     if(pokeName){
       fetch(`https://pokeapi.co/api/v2/pokemon/${pokeName}`)
       .then(response => response.json())
       .then(pokemonData => {
         setPokemonData(pokemonData)
-         console.log(pokemonData)
+        pokeArray.push(pokemonData)
+        setFound(pokeArray)
+         console.log(pokeArray)
       }).catch((err)=>console.log(`El nombre del pokemon ${pokeName} es invalido. Error:`+err))
     }
     else{
