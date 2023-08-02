@@ -1,86 +1,17 @@
+import GenerationButton from "./GenerationButton";
+
 function Generations() {
   return (
     <>
-      <h1>Generation 1</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
-      <br/>
-      <h1>Generation 2</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
-      <br/>
-      <h1>Generation 3</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
-      <br/>
-      <h1>Generation 4</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
-      <br/>
-      <h1>Generation 5</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
-      <br/>
-      <h1>Generation 6</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
-      <br/>
-      <h1>Generation 7</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
-      <br/>
-      <h1>Generation 8</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
-      <br/>
-      <h1>Generation 9</h1>
-      <button
-        className="btn btn-outline-secondary"
-        type="button"
-        id="button-addon2"
-      >
-        Buscar
-      </button>
+      <GenerationButton name={"Gen I"}/>
+      <GenerationButton name={"Gen II"}/>
+      <GenerationButton name={"Generacion 3"}/>
+      <GenerationButton name={"Generacion 4"}/>
+      <GenerationButton name={"Generacion 5"}/>
+      <GenerationButton name={"Generacion 6"}/>
+      <GenerationButton name={"Generacion 7"}/>
+      <GenerationButton name={"Generacion 8"}/>
+      <GenerationButton name={"Generacion 9"}/>
     </>
   );
 }
