@@ -5,13 +5,13 @@ function Generations() {
     <>
       <GenerationButton name={"Gen I"}/>
       <GenerationButton name={"Gen II"}/>
-      <GenerationButton name={"Generacion 3"}/>
-      <GenerationButton name={"Generacion 4"}/>
-      <GenerationButton name={"Generacion 5"}/>
-      <GenerationButton name={"Generacion 6"}/>
-      <GenerationButton name={"Generacion 7"}/>
-      <GenerationButton name={"Generacion 8"}/>
-      <GenerationButton name={"Generacion 9"}/>
+      <GenerationButton name={"Gen III"}/>
+      <GenerationButton name={"Gen IV"}/>
+      <GenerationButton name={"Gen V"}/>
+      <GenerationButton name={"Gen VI"}/>
+      <GenerationButton name={"Gen VII"}/>
+      <GenerationButton name={"Gen VIII"}/>
+      <GenerationButton name={"Gen IX"}/>
     </>
   );
 }
