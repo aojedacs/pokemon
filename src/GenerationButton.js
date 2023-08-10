@@ -1,4 +1,4 @@
-function GenerationButton({ name }) {
+function GenerationButton({ name, setFound }) {
   const onGetGenerationData = () => {
     // const name = this.name;
     generationData(name);
@@ -55,6 +55,7 @@ function GenerationButton({ name }) {
       .then((genData) => {
         console.log(genData.pokemon_species);
         localStorage.setItem(gen, genData.pokemon_species);
+        setFound(genData.pokemon_species)
       });
   };
 

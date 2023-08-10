@@ -15,7 +15,10 @@ function App() {
       <Finder 
         setFound={setFound}
       /> 
-      <Generations />
+      <Generations 
+        setFound={setFound}
+      />
+
       <CardContainer 
         pokemonFound = {found}
       /> 
