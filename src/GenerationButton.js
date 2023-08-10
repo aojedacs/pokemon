@@ -55,7 +55,7 @@ function GenerationButton({ name, setFound }) {
       .then((genData) => {
         console.log(genData.pokemon_species);
         localStorage.setItem(gen, genData.pokemon_species);
-        setFound(genData.pokemon_species)
+      
       });
   };
 
