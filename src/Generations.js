@@ -9,7 +9,7 @@ function Generations({setFound}) {
           <GenerationButton name={"Gen I"} setFound={setFound}/>
         </Col>
         <Col md={4}>
-          <GenerationButton name={"Gen II"} />
+         <GenerationButton name={"Gen II"} />
         </Col>
         <Col md={4}>
           <GenerationButton name={"Gen III"} />
@@ -20,7 +20,7 @@ function Generations({setFound}) {
           <GenerationButton name={"Gen IV"} />
         </Col>
         <Col md={4}>
-          <GenerationButton name={"Gen V"} />
+          <GenerationButton name={"Gen V texto"} />
         </Col>
         <Col md={4}>
           <GenerationButton name={"Gen VI"} />
